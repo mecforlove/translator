@@ -20,7 +20,7 @@ setup(
     platforms='any',
     entry_points='''
         [console_scripts]
-        translator=translator:main
+        translator=translator.translator:main
     '''
 )
 
