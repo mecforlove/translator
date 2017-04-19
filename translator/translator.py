@@ -75,10 +75,12 @@ def main():
         sys.exit(0)
     print 'Enter your text to be translated.Type `q` to quit.'
     while True:
-        text = raw_input('\033[36m>>\033[0m')
+        text = raw_input('\033[36m>>\033[0m').strip()
         if text == 'q':
             print 'Bye!'
             sys.exit(0)
+        if not len(text):
+            continue
         view = View(translate(text))
         print view.translation
         print '---------------------'
