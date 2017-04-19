@@ -14,6 +14,7 @@ setup(
     author='mec',
     author_email='mecforlove@outlook.com',
     description='A command line translator powered by Youdao api',
+    long_description=open('README.md').read(),
     packages=['translator'],
     include_package_data=True,
     zip_safe=False,
