@@ -1,6 +1,13 @@
 A command line translator powered by [Youdao api](http://fanyi.youdao.com/openapi).
 
-## usage
+## Installation
+
+To install translator, simply:
+```shell
+$pip install mec-translator
+```
+
+## Usage
 
 1. translator TEXT
 

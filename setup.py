@@ -44,7 +44,7 @@ n. (Hello)人名；(法)埃洛
 """
 from setuptools import setup
 
-__version__ = '0.0.3'
+__version__ = '0.0.4'
 
 setup(
 	name='mec-translator',
