@@ -82,9 +82,9 @@ def main():
         if not len(text):
             continue
         view = View(translate(text))
-        print view.translation
+        print view.translation.encode('utf-8')
         print '---------------------'
-        print view.basic
+        print view.basic.encode('utf-8')
 
 
 
